@@ -141,11 +141,11 @@ header,
 	height: 30px;
 	z-index: 99;
     color: #fff;
-    background: #fd2709; 
-    background: -webkit-linear-gradient(#fd2709, #b50400); 
-    background: -o-linear-gradient(#fd2709, #b50400); 
-    background: -moz-linear-gradient(#fd2709, #b50400); 
-    background: linear-gradient(#fd2709, #b50400); 
+    background: #2908fd; 
+    background: -webkit-linear-gradient(#2908fd, #0015b5); 
+    background: -o-linear-gradient(#2908fd, #0015b5); 
+    background: -moz-linear-gradient(#2908fd, #0015b5); 
+    background: linear-gradient(#2908fd, #0015b5); 
 }
 
 header .butler,
@@ -203,11 +203,11 @@ header .butler a,
 
 .navbar-brand  {
 	padding: 10px 15px;
-	height: 40px;
+	height: 25px;
 }	
 
 .navbar-brand img {
-	height: 40px;
+	height: 25px;
 }
 
 .navbar-default .navbar-nav > li a {
