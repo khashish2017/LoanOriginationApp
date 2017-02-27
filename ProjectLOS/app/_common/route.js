@@ -19,9 +19,19 @@
             },
             'Footer@': {
             templateUrl: 'app/_layout/footer.html'
-        }
-        }
-    })
+            }
+            }
+        })
+    .state('contactus', {
+        url: '/contactus',
+        parent: 'main',
+             views: {
+                 'Content@': {
+                     templateUrl: 'app/forms/Contactus.html'
+                    
+                 }
+             }
+         })
     }
 
 })();
