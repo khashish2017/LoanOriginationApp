@@ -1,5 +1,35 @@
-﻿<form contact-Us-Ctrl>
-    <div>Reason for Contact <input type="text" ng-model="fm.ContactReason" placeholder="Please enter Contact Reason here"/></div>
-    <div>Name <input type="text" ng-model="fm.myName"/></div>
-     <button ng-click="fnsubmit()">Submit</button>
+﻿<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<form contact-Us-Ctrl>
+    <table>
+        <tr>
+            <td colspan="2" align="center" font="bold">Contact Us</td>
+        </tr>
+        <tr>
+            <td>Full Name</td>
+            <td><input type="text" ng-model="fm.FullName" placeholder="Full Name*" required/></td>
+        </tr>
+        <tr>
+            <td>Email Address</td>
+            <td><input type="text" ng-model="fm.Email" placeholder="Email Address*" typeof="email" required/></td>
+        </tr>
+        <tr>
+            <td>Phone/Mobile</td>
+            <td><input type="text" ng-model="fm.Phone" placeholder="Phone/Mobile*" required /></td>
+        </tr>
+        <tr>
+            <td>Query Type</td>
+            <td>
+                <select ng-model="vm.QueryType" ng-options="x for x in QueryType" required></select>
+            </td>
+
+        </tr>
+        <tr>
+            <td>Query</td>
+            <td><input type="text" ng-model="fm.Query" placeholder="Query*" required /></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><button ng-click="fnsubmit()">Submit</button></td>
+        </tr>
+  
+    </table>
 </form>
